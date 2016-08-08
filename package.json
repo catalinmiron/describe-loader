@@ -1,6 +1,6 @@
 {
   "name": "describe-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrap root describes with path for __filename",
   "main": "index.js",
   "scripts": {
