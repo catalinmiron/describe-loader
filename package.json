@@ -7,11 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish-patch": "npm version patch && git push && git push --tags && npm publish"
   },
+  "keywords": [
+    "mocha",
+    "webpack",
+    "loader",
+    "describe"
+  ],
   "author": "Catalin Miron",
   "license": "MIT",
   "devDependencies": {
     "escodegen": "^1.8.1",
     "esprima": "^2.7.2",
     "estraverse": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:catalinmiron/describe-loader.git"
+  },
 }
