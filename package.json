@@ -1,0 +1,16 @@
+{
+  "name": "describe-loader",
+  "version": "1.0.0",
+  "description": "Wrap root describes with path for __filename",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Catalin Miron",
+  "license": "MIT",
+  "devDependencies": {
+    "escodegen": "^1.8.1",
+    "esprima": "^2.7.2",
+    "estraverse": "^4.2.0"
+  }
+}
