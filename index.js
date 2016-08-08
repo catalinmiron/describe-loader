@@ -1,3 +1,5 @@
+'use strict';
+
 var esprima = require('esprima'),
     estraverse = require('estraverse'),
     escodegen = require('escodegen');
