@@ -1,11 +1,12 @@
 {
   "name": "describe-loader",
-  "version": "1.1.0",
+  "version": "1.0.3",
   "description": "Wrap root describes with path for __filename",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-patch": "npm version patch && git push && git push --tags && npm publish"
+    "publish-patch": "npm version patch && git push && git push --tags && npm publish",
+    "publish-minor": "npm version minor && git push && git push --tags && npm publish"
   },
   "keywords": [
     "mocha",
