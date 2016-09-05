@@ -14,6 +14,8 @@ var esprima = require('esprima'),
  * @returns {String} The modified source.
  */
 module.exports = function(source) {
+  this.cacheable();
+  
   var shouldBreak = false,
       ast = esprima.parse(source);
 
